@@ -1,1 +1,1 @@
-*** Coding random UI for fun***
+** Coding random UI for fun**
