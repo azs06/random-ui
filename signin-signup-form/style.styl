@@ -1,0 +1,89 @@
+*
+	box-sizing: border-box;
+body
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	padding: 1em;
+	
+input
+	border: 0
+	&:focus
+		outline: 0	
+
+ul
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+	
+ul>li
+	list-style: none;
+	display: inline;
+	&:first-child
+		margin-right: 10px;
+
+
+li > a
+	color: #fbfbfb
+	font-size: 20px
+	padding: 0.5em 0
+	text-decoration: none
+	transition: border 1s ease
+li > a.active
+		border-bottom: 1px solid #ccc	
+.signupBox
+	background-color: #674885;
+	height: 400px
+	width: 450px
+	padding: 10px
+	margin: 0 auto
+	&__form
+		width: 100%;
+		margin: 1em 0
+		color: #fff;
+		&--block
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 1.5em;
+			&:last-child
+				margin-bottom: 0
+			>label
+				margin-bottom: 0.7em
+			>input
+				border-radius: 0.9em
+				height: 2em
+			>button
+				align-self: center
+				border-radius: .2em
+				background: #ffffff
+				width: 100px;
+				border: 1px solid #ccc
+				padding: 0.5em 1em
+				color: #674885
+				font-weight: 700
+		&--checkbox
+			display: inline-flex;
+			flex-direction: row-reverse;
+			align-items: center;
+			> input
+				margin-bottom: 0
+			> label
+				font-size: 0.7em
+				margin-bottom: 0
+				
+			
+.signupBox__menu
+	width: 100%;
+	
+.signupBox__tabs
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	>div
+		display: none;
+		width: 100%;
+	div.active
+		display: block
+	&:first-child
+		margin-right: 10px
+		
+	
