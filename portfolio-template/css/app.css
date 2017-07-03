@@ -519,3 +519,65 @@ textarea,
 
 .is-fullheight {
   min-height: 100vh; }
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  background: #fff;
+  position: relative;
+  text-align: center;
+  height: 3.25rem;
+  z-index: 10; }
+
+.nav-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0;
+          flex: 0;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding: 0 1rem; }
+
+.nav-menu {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: auto; }
+
+.nav-item {
+  color: #4a4a4a;
+  display: block;
+  line-height: 1.5;
+  padding: 0 1rem;
+  position: relative; }
+
+.shadow {
+  -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+          box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1); }
+
+.section {
+  background-color: white;
+  padding: 3rem 1.5rem; }
+
+.about-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-repeat: repeat;
+  background-color: #fff;
+  background-image: url("../images/circuit-board.svg");
+  background-attachment: fixed;
+  background-repeat: repeat; }

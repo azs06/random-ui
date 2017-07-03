@@ -3,3 +3,50 @@
 .is-fullheight{
 	min-height: 100vh;
 }
+
+.nav{
+	display: flex;
+	align-items: stretch;
+	background: #fff;
+	position: relative;
+	text-align: center;
+	height: 3.25rem;
+	z-index: 10;
+}
+.nav-brand{
+	display: flex;
+	width: 200px;
+	flex: 0;
+	align-self: center;
+	padding: 0 1rem;
+}
+.nav-menu{
+	display: inline-flex;
+	margin-left: auto;
+}
+.nav-item{
+  color: #4a4a4a;
+  display: block;
+  line-height: 1.5;
+  padding: 0 1rem;
+  position: relative;
+}
+.shadow{
+	box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+}
+.section {
+  background-color: white;
+  padding: 3rem 1.5rem;
+}
+.about-section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-repeat: repeat;
+	background-color: #fff;
+	background-image: url('../images/circuit-board.svg');
+	background-attachment: fixed;
+	background-repeat: repeat;
+}
+
+
