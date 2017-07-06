@@ -566,7 +566,9 @@ textarea,
   background-color: white;
   padding: 3rem 1.5rem; }
 
-.about-section {
+.about-section,
+.work-section,
+.contact-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -577,7 +579,31 @@ textarea,
       -ms-flex-align: center;
           align-items: center;
   background-repeat: repeat;
-  background-color: #fff;
-  background-image: url("../images/circuit-board.svg");
   background-attachment: fixed;
   background-repeat: repeat; }
+
+.about-section {
+  background-color: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.work-section {
+  background-color: #FB8C00;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch; }
+  .work-section h1 {
+    text-decoration: underline; }
+
+.contact-section {
+  background-color: #03A9F4;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch; }
+  .contact-section h1 {
+    text-decoration: underline; }
+
+footer {
+  text-align: center; }
