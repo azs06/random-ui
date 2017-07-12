@@ -576,6 +576,19 @@ body {
   margin: 0 auto;
   padding: 0; }
 
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  zoom: 1;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  position: relative; }
+
 .section {
   background-color: white;
   padding: 3rem 1.5rem; }
@@ -624,6 +637,20 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+
+.project {
+  width: 40%;
+  border: 1px solid;
+  text-align: center;
+  padding: 5px;
+  margin: 5px; }
+
+.center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  text-align: center; }
 
 .contact-section {
   background-color: #42A5F5;
