@@ -10,7 +10,7 @@
 <body>
 <header>
 	<nav class="nav shadow">
-		<div class="nav-brand">logo</div>
+		<div class="nav-brand">Md. Atiquzzaman Soikat</div>
 		<ul class="nav-menu">
 		<li class="nav-item"><a href="#about">About</a></li>
 		<li class="nav-item"><a href="#work">Work</a></li>
@@ -20,22 +20,77 @@
 </header>
 <main>
 	<section id="about" class="section about-section is-fullheight">
-		<header>
-			<h1>Md. Atiquzzaman Soikat</h1>
-			<h3>Front end developer</h3>
+		<header class="hero--header">
+			<h1 class="hero--title">Hey I am, Md. Atiquzzaman Soikat</h1>
+			<h3 class="hero--subtitle">Front end developer</h3>
 		</header>
 	</section>
 	<section id="work" class="section work-section is-fullheight">
-		<header>
-			<h1>Work</h1>
-		</header>
-	</section>
-	<section id="contact" class="section contact-section is-fullheight">
-		<header>
-		<h1>Contact</h1>
+		<header class="work-secton__header">
+			<h1 class="title">Work</h1>
 		</header>
 		<article>
-
+			<div class="container">
+				<div class="row">
+					<a href="#" class="project project-tile">
+						<figure class="project-pic">
+							<img src="http://via.placeholder.com/250x200" alt="">	
+						</figure>
+						<p class="project-title">
+							Lorem Ipsum
+						</p>	
+					</a>
+					<a href="#" class="project project-tile">
+						<figure class="project-pic">
+							<img src="http://via.placeholder.com/250x200" alt="">	
+						</figure>
+						<p class="project-title">
+							Lorem Ipsum
+						</p>	
+					</a>
+				</div>
+			</div>
+		</article>
+	</section>
+	<section id="contact" class="section contact-section is-fullheight">
+		<header class="contact-section__header">
+		<h1 class="title">Contact</h1>
+		</header>
+		<article>
+			<div class="container">
+				<div class="row row--full">
+					<div class="form">
+						<form role="form">
+							<div class="field">
+							<input type="text" id="name" name="name" placeholder="Name" required="" class="input input-reset">
+							</div>
+							<div class="field">
+							<input type="text" id="email" name="email" placeholder="Email" required="" class="input input-reset">
+							</div>
+							<div class="field">
+							<input type="text" id="subject" name="subject" placeholder="Subject" required="" class="input input-reset">
+							</div>
+							<div class="field">
+							<textarea type="textarea" id="message" placeholder="Message" maxlength="140" rows="7" class="input input-reset textarea"></textarea>
+							</div>
+							<div class="field">
+							<button type="button" id="submit" name="submit" class="button">Submit</button>
+							</div>
+        				</form>
+					</div>
+				</div>
+				<div class="row row--full">
+					<div class="connect">
+						<ul class="social__links">
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Github</a></li>
+							<li><a href="#">LinkedIn</a></li>
+							<li><a href="#">Stackoverflow</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</article>
 	</section>
 </main>
